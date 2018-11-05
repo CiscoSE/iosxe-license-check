@@ -1,4 +1,5 @@
-# license_check
+# iosxe-license-check
+
 Used to check the feature and expiration date of active and in-use licenses on IOS-XE router.
 
 NOTE:  Be sure to set the environment variable SNMPRO to the SNMP community string
@@ -13,5 +14,3 @@ Examples:
 	cat ./file_with_list_of_devices.txt | while read line; do
              ./license-check.sh ${line}; done
 
-
-# iosxe-license-check
