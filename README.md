@@ -14,3 +14,10 @@ Examples:
 	cat ./file_with_list_of_devices.txt | while read line; do
              ./license-check.sh ${line}; done
 
+
+Output:
+     [user@host ~]$ export SNMPRO=public
+     [user@host ~]$ license-check.sh iosxe-device
+     iosxe-device,9ATJXXXXAHF,appx_1G,2019-01-27
+     [user@host ~]$
+
